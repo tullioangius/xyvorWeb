@@ -45,7 +45,7 @@
     position: absolute;
     left: 0vw;
     top: 3vh;
-    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
     opacity: 0;
     transition: opacity 1s;
 }
@@ -71,13 +71,18 @@
 
 .fitproduct{
     max-width: 40vw;
-    position: absolute;
-    right: 10vw;
-    top: -25vh;
+    
 }
 .trigger{
     clip-path: circle(71% at 50% 50%);
     transition: clip-path 1s;
+}
+
+#comfy-wrapper{
+    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
+    position: absolute;
+    right: 10vw;
+    top: -25vh;
 }
 
 
@@ -93,6 +98,7 @@
     position: absolute;
     right: -150vw;
     width: 100vw;
+    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
 }
 .gallery{
     margin-bottom: 10vh;
@@ -103,6 +109,8 @@
 .stockImg{
     max-width: 25vw;
     max-height: 41vw;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+
 }
 
 
@@ -134,9 +142,9 @@
     clip-path: polygon(34% 0, 66% 0, 66% 100%, 34% 100%);
     max-width: 78vw!important;
     transition: clip-path 1s;
-
-
 }
+
+
 .a7{
     position: absolute;
     top: 45.5vw;
@@ -172,7 +180,7 @@
     top: 45vw;
     max-width: 26vw;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 1s;
 
 }
 
@@ -200,16 +208,56 @@
     position: absolute;
     max-width: 45vw;
     top: 50vh;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+    right: 10vw;
 }
 /*HERO 5 SCATOLA*/
 .scatola {
     position: relative;
+    margin-bottom: 35vh;
 }
 
 .parScatola{
     position: absolute;
-    top: 25vh;
+    top: 45vh;
     right: 10vw;
-    text-align: justify;
+    text-align: right;
     max-width: 26vw;
+}
+
+.box{
+    max-width: 10vw;
+    background-color: #FFC857;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+ 
+}
+
+.boxContent{
+    position: absolute;
+    left: 10vw;
+}
+
+.b1{
+    position: absolute;
+    top: 100vh;
+}
+.b2{
+    position: absolute;
+    top: 100vh;
+    left: 12vw;
+}
+.b3{
+    position: absolute;
+    top: 100vh;
+    left: 24vw;
+}
+.b4{
+    position: absolute;
+    top: 100vh;
+    left: 36vw;
+}
+.b5{
+    position: absolute;
+    top: 100vh;
+    left: 48vw;
 }

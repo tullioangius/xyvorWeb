@@ -1,6 +1,7 @@
 /**GENERALI */
 
 let viewWidthGallery = document.querySelector("html").clientWidth *1.5;
+let viewHeight = document.querySelector("html").clientHeight;
 console.log(viewWidthGallery)
 /*GSAP */
 gsap.registerPlugin(ScrollTrigger);
@@ -110,14 +111,14 @@ gsap.to(".row1", {
 })
 gsap.to(".row2", {
   scrollTrigger: {
-    trigger: ".fitproduct",
-    start: "top 50%",
-    end: "top 50%",
+    trigger: ".row1",
+    start: "center 50%",
+    end: "center 50%",
     toggleActions: "play none reverse none"
   },
   ease: "power2.out",
   x: -viewWidthGallery,
-  duration:1.5,
+  duration:2,
 })
 
 /*USCITA */
@@ -200,12 +201,14 @@ gsap.to(".parBattery", {
     scrollTrigger: {
         trigger: ".a6",
         start: 'center 50%',
+        end: 'center 50%',
     },
-    duration: 0.7,
+    duration: 1,
     alpha:1,
 })
 /**FINE ANIMAZIONI GALLERIA */
 
+/**ANIMAZIONI BLUETOOTH */
 gsap.to(".bluetooth", {
   scrollTrigger: {
     trigger: ".parBattery",
@@ -216,6 +219,69 @@ gsap.to(".bluetooth", {
   duration: 1,
   alpha: 1
 })
+
+/**ANIMAZIONI SCATOLA */
+gsap.to(".b1", {
+  scrollTrigger: {
+    trigger: ".bluetoothImg",
+    start: "50% center",
+    end: "50% center",
+    toggleActions: "play none reverse none"
+
+  },
+  duration: 1,
+  y: -viewHeight,
+  delay: 0,
+})
+gsap.to(".b2", {
+  scrollTrigger: {
+    trigger: ".bluetoothImg",
+    start: "50% center",
+    end: "50% center",
+    toggleActions: "play none reverse none"
+
+  },
+  duration: 1,
+  y: -viewHeight,
+  delay: 0.1,
+})
+gsap.to(".b3", {
+  scrollTrigger: {
+    trigger: ".bluetoothImg",
+    start: "50% center",
+    end: "50% center",
+    toggleActions: "play none reverse none"
+
+  },
+  duration: 1,
+  y: -viewHeight,
+  delay: 0.2,
+})
+gsap.to(".b4", {
+  scrollTrigger: {
+    trigger: ".bluetoothImg",
+    start: "50% center",
+    end: "50% center",
+    toggleActions: "play none reverse none"
+
+  },
+  duration: 1,
+  y: -viewHeight,
+  delay: 0.3,
+})
+gsap.to(".b5", {
+  scrollTrigger: {
+    trigger: ".bluetoothImg",
+    start: "50% center",
+    end: "50% center",
+    toggleActions: "play none reverse none"
+
+  },
+  duration: 1,
+  y: -viewHeight,
+  delay: 0.4,
+})
+
 /*FUNZIONE FRECCIA */
 let arrow = document.querySelector(".arrowdown");
 if(document.getElementById('scrollPage')){
