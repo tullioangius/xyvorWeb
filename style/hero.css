@@ -1,0 +1,215 @@
+/*GENERALI*/
+
+.titlePar{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/*HERO 1 DRIVER*/
+.driver {
+    width: 100%;
+}
+
+.illustration_drivers{
+    max-height:80%; 
+    max-width:90%;
+    position: absolute;
+    top: 20vh;
+    right: 5vw;
+    opacity: 0;
+}
+
+.parDriver{
+    max-width: 26vw;
+    text-align: justify;
+    position: absolute;
+    right: 15vw;
+    top: 50vh;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.bassi{
+    position: absolute;
+    left: 10vw;
+    top: 15vh;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+#driver_bg{
+    max-width: 200vw;
+    position: absolute;
+    left: 0vw;
+    top: 3vh;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/*HERO 2 COMFORT*/
+.comfort {
+    width: 100%;
+    margin-top: 45vh;
+    padding:0;
+    position: relative;
+}
+
+
+.parComfort{
+    max-width: 26vw;
+    text-align: justify;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.fitproduct{
+    max-width: 40vw;
+    position: absolute;
+    right: 10vw;
+    top: -25vh;
+}
+.trigger{
+    clip-path: circle(71% at 50% 50%);
+    transition: clip-path 1s;
+}
+
+
+/*HERO 3 BATTERIA*/
+
+/*carosello*/
+.row1{
+    position: absolute;
+    left: -150vw;
+    width: 100vw;
+}
+.row2{
+    position: absolute;
+    right: -150vw;
+    width: 100vw;
+}
+.gallery{
+    margin-bottom: 10vh;
+    max-height: fit-content;
+    padding: 0;
+}
+
+.stockImg{
+    max-width: 25vw;
+    max-height: 41vw;
+}
+
+
+.a1{
+    position: absolute;
+    left: -7.5vw;
+}
+.a2{
+    position: absolute;
+    left: 22.5vw;
+}
+.a3{
+    position: absolute;
+    left: 52.5vw;
+}
+.a4{
+    position: absolute;
+    left: 82.5vw;
+}
+.a5{
+    position: absolute;
+    top: 45.5vw;
+    left: 6vw;
+}
+.a6{
+    position: absolute;
+    top: 45.5vw;
+    left: 11vw;
+    clip-path: polygon(34% 0, 66% 0, 66% 100%, 34% 100%);
+    max-width: 78vw!important;
+    transition: clip-path 1s;
+
+
+}
+.a7{
+    position: absolute;
+    top: 45.5vw;
+    left: 69vw;
+
+}
+
+
+.battery {
+    padding:0;
+    position: relative;
+}
+
+.illustration_battery{
+    position: absolute;
+    top: -8vh;
+    left: -5vw;
+}
+
+.batteryImg{
+    max-width: 45vw;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.parBattery{
+    position: absolute;
+    text-align: justify;
+    left: 37vw;
+    top: 45vw;
+    max-width: 26vw;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+
+/*HERO 4 BLUETOOTH*/
+.bluetooth {
+    position: relative;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.carica_wireless_img{
+    max-width: 30vw;
+}
+
+.parChip{
+    position: absolute;
+    max-width: 26vw;
+    left: 10vw;
+    top: 60vh;
+    text-align: justify;
+}
+
+.bluetoothImg{
+    position: absolute;
+    max-width: 45vw;
+    top: 50vh;
+}
+/*HERO 5 SCATOLA*/
+.scatola {
+    position: relative;
+}
+
+.parScatola{
+    position: absolute;
+    top: 25vh;
+    right: 10vw;
+    text-align: justify;
+    max-width: 26vw;
+}
