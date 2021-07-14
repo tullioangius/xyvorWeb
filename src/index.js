@@ -87,8 +87,8 @@ gsap.to("#driver_bg", {
 gsap.to(".a6", {
   scrollTrigger: {
     trigger: ".a6",
-    start: "top 50%",
-    end: "top 50%",
+    start: "25% 50%",
+    end: "25% 50%",
     scrub: true,
 
   },
@@ -125,8 +125,8 @@ gsap.to(".row2", {
 gsap.to(".a5", {
   scrollTrigger: {
     trigger: ".a6",
-    start: "top 50%",
-    end: "top 50%",
+    start: "25% 50%",
+    end: "25% 50%",
     toggleActions: "play none reverse none"
   },
   ease: "power2.out",
@@ -136,8 +136,8 @@ gsap.to(".a5", {
 gsap.to(".a7", {
   scrollTrigger: {
     trigger: ".a6",
-    start: "top 50%",
-    end: "top 50%",
+    start: "25% 50%",
+    end: "25% 50%",
     toggleActions: "play none reverse none"
   },
   ease: "power2.out",
@@ -147,8 +147,8 @@ gsap.to(".a7", {
 gsap.to(".a1", {
   scrollTrigger: {
     trigger: ".a6",
-    start: "top 50%",
-    end: "top 50%",
+    start: "25% 50%",
+    end: "25% 50%",
     toggleActions: "play none reverse none"
   },
   ease: "power2.out",
@@ -160,8 +160,8 @@ gsap.to(".a1", {
 gsap.to(".a2", {
   scrollTrigger: {
     trigger: ".a6",
-    start: "top 50%",
-    end: "top 50%",
+    start: "25% 50%",
+    end: "25% 50%",
     toggleActions: "play none reverse none"
   },
   ease: "power2.out",
@@ -173,8 +173,8 @@ gsap.to(".a2", {
 gsap.to(".a3", {
   scrollTrigger: {
     trigger: ".a6",
-    start: "top 50%",
-    end: "top 50%",
+    start: "25% 50%",
+    end: "25% 50%",
     toggleActions: "play none reverse none"
   },
   ease: "power2.out",
@@ -186,8 +186,8 @@ gsap.to(".a3", {
 gsap.to(".a4", {
   scrollTrigger: {
     trigger: ".a6",
-    start: "top 50%",
-    end: "top 50%",
+    start: "25% 50%",
+    end: "25% 50%",
     toggleActions: "play none reverse none"
   },
   ease: "power2.out",
