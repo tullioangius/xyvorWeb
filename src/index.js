@@ -1,8 +1,23 @@
 /**GENERALI */
 
-let viewWidthGallery = document.querySelector("html").clientWidth *1.5;
-let viewHeight = document.querySelector("html").clientHeight;
-console.log(viewWidthGallery)
+function setWidth(){
+  viewWidthGallery = document.querySelector("html").clientWidth *1.5;
+  console.log(viewWidthGallery)
+  return viewWidthGallery
+}
+function setWidthReverse(){
+  viewWidthGallery = document.querySelector("html").clientWidth *1.5;
+  console.log(viewWidthGallery)
+  return -viewWidthGallery
+}
+
+function setHeight(){
+  viewHeight = document.querySelector("html").clientHeight;
+  console.log(viewHeight)
+  return viewHeight
+}
+
+
 /*GSAP */
 gsap.registerPlugin(ScrollTrigger);
 
@@ -21,10 +36,12 @@ ScrollTrigger.scrollerProxy("#my-scrollbar", {
     return scrollbar.scrollTop;
   }
 });
+window.onresize = ScrollTrigger.refresh()
 
 scrollbar.addListener(ScrollTrigger.update);
 
 ScrollTrigger.defaults({ scroller: scroller });
+
 
 /**Comfort scroll animations */
 gsap.to(".trigger", {
@@ -103,10 +120,11 @@ gsap.to(".row1", {
     start: "bottom 50%",
     end: "bottom 50%",
     markers: true,
-    toggleActions: "play none reverse none"
+    toggleActions: "play none reverse none",
+    invalidateOnRefresh: true
   },
   ease: "power2.out",
-  x: viewWidthGallery,
+  x: setWidth,
   duration:1.5,
 })
 gsap.to(".row2", {
@@ -114,10 +132,12 @@ gsap.to(".row2", {
     trigger: ".row1",
     start: "center 50%",
     end: "center 50%",
-    toggleActions: "play none reverse none"
+    toggleActions: "play none reverse none",
+    invalidateOnRefresh: true
+
   },
   ease: "power2.out",
-  x: -viewWidthGallery,
+  x: setWidthReverse,
   duration:2,
 })
 
@@ -230,7 +250,7 @@ gsap.to(".b1", {
 
   },
   duration: 1,
-  y: -viewHeight,
+  y: -(setHeight()),
   delay: 0,
 })
 gsap.to(".b2", {
@@ -242,7 +262,7 @@ gsap.to(".b2", {
 
   },
   duration: 1,
-  y: -viewHeight,
+  y: -(setHeight()),
   delay: 0.1,
 })
 gsap.to(".b3", {
@@ -254,7 +274,7 @@ gsap.to(".b3", {
 
   },
   duration: 1,
-  y: -viewHeight,
+  y: -(setHeight()),
   delay: 0.2,
 })
 gsap.to(".b4", {
@@ -266,7 +286,7 @@ gsap.to(".b4", {
 
   },
   duration: 1,
-  y: -viewHeight,
+  y: -(setHeight()),
   delay: 0.3,
 })
 gsap.to(".b5", {
@@ -278,7 +298,7 @@ gsap.to(".b5", {
 
   },
   duration: 1,
-  y: -viewHeight,
+  y: -(setHeight()),
   delay: 0.4,
 })
 
