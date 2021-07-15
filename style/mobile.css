@@ -1,56 +1,65 @@
-@media screen and (min-width: 2200px) {
-    .parBattery{
-        top:55vh;
-    }
-    .parChip{
-        top: 15vh;
-    }
-    .bluetoothImg{
-        top:5vh;
-    }
+@media screen and (max-width: 1450px) {
+    /*LANDING*/
+   .r{
+    transform: rotate(30deg);
+    max-height: 28vh;
+    right: 10vw;
+    top: 40vh;
 
-    .scatola{
-        margin-bottom: 0;
-        height: 0;
-    }
+   }
+   .l{
+    transform: rotate(30deg);
+    max-height: 28vh;
+    left: 10vw;
+    top: 2vh
+   }
 
-    .parScatola{
-        position: absolute;
-        top: 5vh;
-        right: 10vw;
-        text-align: right;
-        max-width: 26vw;
-    }
+   .central-logo{
+       max-width: 50vh;
+   }
+   h1{
+       max-width: 80vw;
+       font-size: 4vh;
+   }
 
-    .box{
-        max-width: 10vw;
-        background-color: #FFC857;
-        box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-    
-    }
+   /*HERO 1*/
 
-    .b1{
-        position: absolute;
-        top: 40vh;
-    }
-    .b2{
-        position: absolute;
-        top: 40vh;
-        left: 12vw;
-    }
-    .b3{
-        position: absolute;
-        top: 40vh;
-        left: 24vw;
-    }
-    .b4{
-        position: absolute;
-        top: 40vh;
-        left: 36vw;
-    }
-    .b5{
-        position: absolute;
-        top: 40vh;
-        left: 48vw;
-    }
+   .bassi{
+       max-width: none;
+       width: 60vw;
+       left: 20vw;
+   }
+
+   #driver_bg{
+       left: 1vw;
+   }
+
+   .parDriver{
+       max-width: none;
+       width: 60vw;
+       top: 65vh;
+       right: 20vw;
+   }
+
+   /*HERO 2*/
+
+   #comfy-wrapper{
+    right: 10vw;
+
+    top: -50vh;
+   }
+   .fitproduct{
+       max-width: none;
+       width: 80vw;
+   }
+   .parComfort{
+       position: relative;
+       max-width: none;
+       width: 70vw;
+       left: 15vw;
+       top:50vw;
+   }
+
+
+ 
 }

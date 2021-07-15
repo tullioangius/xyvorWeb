@@ -1,261 +1,269 @@
-/*GENERALI*/
-
-.titlePar{
-    font-weight: bold;
-    font-size: 1.5rem;
-}
 
 
-/*HERO 1 DRIVER*/
-.driver {
-    width: 100%;
-}
+    /*GENERALI*/
 
-.illustration_drivers{
-    max-height:80%; 
-    max-width:90%;
-    position: absolute;
-    top: 20vh;
-    right: 5vw;
-    opacity: 0;
-}
-
-.parDriver{
-    max-width: 26vw;
-    text-align: justify;
-    position: absolute;
-    right: 15vw;
-    top: 50vh;
-    opacity: 0;
-    transition: opacity 1s;
-
-}
-
-.bassi{
-    position: absolute;
-    left: 10vw;
-    top: 15vh;
-    opacity: 0;
-    transition: opacity 1s;
-
-}
-
-#driver_bg{
-    max-width: 200vw;
-    position: absolute;
-    left: 0vw;
-    top: 3vh;
-    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-/*HERO 2 COMFORT*/
-.comfort {
-    width: 100%;
-    margin-top: 45vh;
-    padding:0;
-    position: relative;
-}
+    .titlePar{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
 
 
-.parComfort{
-    max-width: 26vw;
-    text-align: justify;
-    position: absolute;
-    left: 10vw;
-    top: 10vh;
-    opacity: 0;
-    transition: opacity 1s;
-}
+    /*HERO 1 DRIVER*/
+    .driver {
+        width: 100%;
+    }
 
-.fitproduct{
-    max-width: 40vw;
+    .illustration_drivers{
+        max-height:80%; 
+        max-width:90%;
+        position: absolute;
+        top: 20vh;
+        right: 5vw;
+        opacity: 0;
+    }
+
+    .parDriver{
+        max-width: 26vw;
+        text-align: justify;
+        position: absolute;
+        right: 15vw;
+        top: 50vh;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+
+    .bassi{
+        position: absolute;
+        left: 10vw;
+        top: 15vh;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+
+    #driver_bg{
+        max-width: 100vw;
+        position: absolute;
+        left: 8vw;
+        top: 3vh;
+        filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+
+
+    .bassiWrapper{
+        width: 100vw;
+    }
+
+    /*HERO 2 COMFORT*/
+    .comfort {
+        width: 100%;
+        margin-top: 45vh;
+        padding:0;
+        position: relative;
+    }
+
+
+    .parComfort{
+        max-width: 26vw;
+        text-align: justify;
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .fitproduct{
+        max-width: 40vw;
+        
+    }
+    .trigger{
+        clip-path: circle(71% at 50% 50%);
+        transition: clip-path 1s;
+    }
+
+    #comfy-wrapper{
+        filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
+        position: absolute;
+        right: 10vw;
+        top: -25vh;
+    }
+
+
+    /*HERO 3 BATTERIA*/
+
+    /*carosello*/
+    .row1{
+        position: absolute;
+        left: -150vw;
+        width: 100vw;
+    }
+    .row2{
+        position: absolute;
+        right: -150vw;
+        width: 100vw;
+        filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
+    }
+    .gallery{
+        margin-bottom: 10vh;
+        max-height: fit-content;
+        padding: 0;
+    }
+
+    .stockImg{
+        max-width: 25vw;
+        max-height: 41vw;
+        box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+    }
+
+
+    .a1{
+        position: absolute;
+        left: -7.5vw;
+    }
+    .a2{
+        position: absolute;
+        left: 22.5vw;
+    }
+    .a3{
+        position: absolute;
+        left: 52.5vw;
+    }
+    .a4{
+        position: absolute;
+        left: 82.5vw;
+    }
+    .a5{
+        position: absolute;
+        top: 45.5vw;
+        left: 6.5vw;
+    }
+    .a6{
+        position: absolute;
+        top: 45.5vw;
+        left: 11vw;
+        clip-path: polygon(34% 0, 66% 0, 66% 100%, 34% 100%);
+        width: 78vw!important;
+        transition: clip-path 1s;
+    }
+
+
+    .a7{
+        position: absolute;
+        top: 45.5vw;
+        left: 68.5vw;
+
+    }
+
+    .battery {
+        padding:0;
+        position: relative;
+    }
+
+    .illustration_battery{
+        position: absolute;
+        top: -8vh;
+        left: -5vw;
+    }
+
+    .batteryImg{
+        max-width: 45vw;
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .parBattery{
+        position: absolute;
+        text-align: justify;
+        left: 37vw;
+        bottom: -50vh;
+        max-width: 26vw;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+
+    /*HERO 4 BLUETOOTH*/
+    .bluetooth {
+        position: relative;
+        opacity: 0;
+        transition: opacity 1s;
+
+    }
+
+    .carica_wireless_img{
+        max-width: 30vw;
+    }
+
+    .parChip{
+        position: absolute;
+        max-width: 26vw;
+        left: 10vw;
+        top: 70vh;
+        text-align: justify;
+    }
+
+    .bluetoothImg{
+        position: absolute;
+        max-width: 45vw;
+        top: 60vh;
+        box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+        right: 10vw;
+    }
+    /*HERO 5 SCATOLA*/
+    .scatola {
+        position: relative;
+        margin-bottom: 35vh;
+    }
+
+    .parScatola{
+        position: absolute;
+        top: 55vh;
+        right: 10vw;
+        text-align: right;
+        max-width: 20vw;
+    }
+
+    .box{
+        max-width: 10vw;
+        background-color: #FFC857;
+        box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
     
-}
-.trigger{
-    clip-path: circle(71% at 50% 50%);
-    transition: clip-path 1s;
-}
+    }
 
-#comfy-wrapper{
-    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
-    position: absolute;
-    right: 10vw;
-    top: -25vh;
-}
+    .boxContent{
+        position: absolute;
+        left: 10vw;
+    }
 
-
-/*HERO 3 BATTERIA*/
-
-/*carosello*/
-.row1{
-    position: absolute;
-    left: -150vw;
-    width: 100vw;
-}
-.row2{
-    position: absolute;
-    right: -150vw;
-    width: 100vw;
-    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
-}
-.gallery{
-    margin-bottom: 10vh;
-    max-height: fit-content;
-    padding: 0;
-}
-
-.stockImg{
-    max-width: 25vw;
-    max-height: 41vw;
-    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-}
-
-
-.a1{
-    position: absolute;
-    left: -7.5vw;
-}
-.a2{
-    position: absolute;
-    left: 22.5vw;
-}
-.a3{
-    position: absolute;
-    left: 52.5vw;
-}
-.a4{
-    position: absolute;
-    left: 82.5vw;
-}
-.a5{
-    position: absolute;
-    top: 45.5vw;
-    left: 6.5vw;
-}
-.a6{
-    position: absolute;
-    top: 45.5vw;
-    left: 11vw;
-    clip-path: polygon(34% 0, 66% 0, 66% 100%, 34% 100%);
-    width: 78vw!important;
-    transition: clip-path 1s;
-}
-
-
-.a7{
-    position: absolute;
-    top: 45.5vw;
-    left: 68.5vw;
-
-}
-
-.battery {
-    padding:0;
-    position: relative;
-}
-
-.illustration_battery{
-    position: absolute;
-    top: -8vh;
-    left: -5vw;
-}
-
-.batteryImg{
-    max-width: 45vw;
-    position: absolute;
-    left: 10vw;
-    top: 10vh;
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-.parBattery{
-    position: absolute;
-    text-align: justify;
-    left: 37vw;
-    top: 90vh;
-    max-width: 26vw;
-    opacity: 0;
-    transition: opacity 1s;
-
-}
-
-/*HERO 4 BLUETOOTH*/
-.bluetooth {
-    position: relative;
-    opacity: 0;
-    transition: opacity 1s;
-
-}
-
-.carica_wireless_img{
-    max-width: 30vw;
-}
-
-.parChip{
-    position: absolute;
-    max-width: 26vw;
-    left: 10vw;
-    top: 70vh;
-    text-align: justify;
-}
-
-.bluetoothImg{
-    position: absolute;
-    max-width: 45vw;
-    top: 60vh;
-    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-    right: 10vw;
-}
-/*HERO 5 SCATOLA*/
-.scatola {
-    position: relative;
-    margin-bottom: 35vh;
-}
-
-.parScatola{
-    position: absolute;
-    top: 55vh;
-    right: 10vw;
-    text-align: right;
-    max-width: 20vw;
-}
-
-.box{
-    max-width: 10vw;
-    background-color: #FFC857;
-    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
- 
-}
-
-.boxContent{
-    position: absolute;
-    left: 10vw;
-}
-
-.b1{
-    position: absolute;
-    top: 100vh;
-}
-.b2{
-    position: absolute;
-    top: 100vh;
-    left: 12vw;
-}
-.b3{
-    position: absolute;
-    top: 100vh;
-    left: 24vw;
-}
-.b4{
-    position: absolute;
-    top: 100vh;
-    left: 36vw;
-}
-.b5{
-    position: absolute;
-    top: 100vh;
-    left: 48vw;
-}
+    .b1{
+        position: absolute;
+        top: 100vh;
+    }
+    .b2{
+        position: absolute;
+        top: 100vh;
+        left: 12vw;
+    }
+    .b3{
+        position: absolute;
+        top: 100vh;
+        left: 24vw;
+    }
+    .b4{
+        position: absolute;
+        top: 100vh;
+        left: 36vw;
+    }
+    .b5{
+        position: absolute;
+        top: 100vh;
+        left: 48vw;
+    }
