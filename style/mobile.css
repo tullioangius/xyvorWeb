@@ -1,0 +1,56 @@
+@media screen and (min-width: 2200px) {
+    .parBattery{
+        top:55vh;
+    }
+    .parChip{
+        top: 15vh;
+    }
+    .bluetoothImg{
+        top:5vh;
+    }
+
+    .scatola{
+        margin-bottom: 0;
+        height: 0;
+    }
+
+    .parScatola{
+        position: absolute;
+        top: 5vh;
+        right: 10vw;
+        text-align: right;
+        max-width: 26vw;
+    }
+
+    .box{
+        max-width: 10vw;
+        background-color: #FFC857;
+        box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+    
+    }
+
+    .b1{
+        position: absolute;
+        top: 40vh;
+    }
+    .b2{
+        position: absolute;
+        top: 40vh;
+        left: 12vw;
+    }
+    .b3{
+        position: absolute;
+        top: 40vh;
+        left: 24vw;
+    }
+    .b4{
+        position: absolute;
+        top: 40vh;
+        left: 36vw;
+    }
+    .b5{
+        position: absolute;
+        top: 40vh;
+        left: 48vw;
+    }
+}

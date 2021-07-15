@@ -3,6 +3,9 @@ html {
   background-color: #FFC857;
   height: 100vh;
   overflow: hidden;
+  font-size: calc( 12px + 0.4vw);
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 #my-scrollbar{
@@ -38,15 +41,18 @@ footer{
 
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 /*GENERALI*/
 
 .body-container{
   max-width: 100%;
   position: relative;
   text-align: center;
+  overflow-x:hidden;
+
 }
 .content{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300 !important;
   height: 85vh;
   width: 100vw;
@@ -56,7 +62,23 @@ footer{
   padding-top: 40vh;
 }
 
+/*BOTTONE*/
+.buybtn{
+  display: block;
+  color: black;
+  width: 25vw;
+  height: 13vw;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 1s ease;
+}
 
+.buybtn:hover{
+  background-position: left bottom;
+  color: #FFC857;
+}
 
 /*HERO INIZIALE*/
 .background {

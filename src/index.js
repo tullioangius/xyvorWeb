@@ -14,7 +14,7 @@ function setWidthReverse(){
 function setHeight(){
   viewHeight = document.querySelector("html").clientHeight;
   console.log(viewHeight)
-  return viewHeight
+  return -viewHeight
 }
 
 
@@ -130,15 +130,14 @@ gsap.to(".row1", {
 gsap.to(".row2", {
   scrollTrigger: {
     trigger: ".row1",
-    start: "center 50%",
-    end: "center 50%",
+    start: "bottom 50%",
+    end: "bottom 50%",
     toggleActions: "play none reverse none",
     invalidateOnRefresh: true
-
   },
   ease: "power2.out",
   x: setWidthReverse,
-  duration:2,
+  duration:1.5,
 })
 
 /*USCITA */
@@ -222,6 +221,7 @@ gsap.to(".parBattery", {
         trigger: ".a6",
         start: 'center 50%',
         end: 'center 50%',
+        scrub: true,
     },
     duration: 1,
     alpha:1,
@@ -232,8 +232,8 @@ gsap.to(".parBattery", {
 gsap.to(".bluetooth", {
   scrollTrigger: {
     trigger: ".parBattery",
-    start: "top 50%",
-    end: "top 50%",
+    start: "center 50%",
+    end: "center 50%",
     scrub: true,
   },
   duration: 1,
@@ -244,62 +244,62 @@ gsap.to(".bluetooth", {
 gsap.to(".b1", {
   scrollTrigger: {
     trigger: ".bluetoothImg",
-    start: "50% center",
-    end: "50% center",
-    toggleActions: "play none reverse none"
-
+    start: "65% center",
+    end: "65% center",
+    toggleActions: "play none reverse none",
+    invalidateOnRefresh: true
   },
   duration: 1,
-  y: -(setHeight()),
+  y: setHeight,
   delay: 0,
 })
 gsap.to(".b2", {
   scrollTrigger: {
     trigger: ".bluetoothImg",
-    start: "50% center",
-    end: "50% center",
-    toggleActions: "play none reverse none"
-
+    start: "65% center",
+    end: "65% center",
+    toggleActions: "play none reverse none",
+    invalidateOnRefresh: true
   },
-  duration: 1,
-  y: -(setHeight()),
-  delay: 0.1,
+  duration: 1.1,
+  y: setHeight,
+  delay: 0.2,
 })
 gsap.to(".b3", {
   scrollTrigger: {
     trigger: ".bluetoothImg",
-    start: "50% center",
-    end: "50% center",
-    toggleActions: "play none reverse none"
-
+    start: "65% center",
+    end: "65% center",
+    toggleActions: "play none reverse none",
+    invalidateOnRefresh: true
   },
-  duration: 1,
-  y: -(setHeight()),
-  delay: 0.2,
+  duration: 1.2,
+  y: setHeight,
+  delay: 0.4,
 })
 gsap.to(".b4", {
   scrollTrigger: {
     trigger: ".bluetoothImg",
-    start: "50% center",
-    end: "50% center",
-    toggleActions: "play none reverse none"
-
+    start: "65% center",
+    end: "65% center",
+    toggleActions: "play none reverse none",
+    invalidateOnRefresh: true
   },
-  duration: 1,
-  y: -(setHeight()),
-  delay: 0.3,
+  duration: 1.3,
+  y: setHeight,
+  delay: 0.6,
 })
 gsap.to(".b5", {
   scrollTrigger: {
     trigger: ".bluetoothImg",
-    start: "50% center",
-    end: "50% center",
-    toggleActions: "play none reverse none"
-
+    start: "65% center",
+    end: "65% center",
+    toggleActions: "play none reverse none",
+    invalidateOnRefresh: true
   },
-  duration: 1,
-  y: -(setHeight()),
-  delay: 0.4,
+  duration: 1.4,
+  y: setHeight,
+  delay: 0.8,
 })
 
 /*FUNZIONE FRECCIA */

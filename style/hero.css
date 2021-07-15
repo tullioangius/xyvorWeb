@@ -110,7 +110,6 @@
     max-width: 25vw;
     max-height: 41vw;
     box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-
 }
 
 
@@ -133,14 +132,14 @@
 .a5{
     position: absolute;
     top: 45.5vw;
-    left: 6vw;
+    left: 6.5vw;
 }
 .a6{
     position: absolute;
     top: 45.5vw;
     left: 11vw;
     clip-path: polygon(34% 0, 66% 0, 66% 100%, 34% 100%);
-    max-width: 78vw!important;
+    width: 78vw!important;
     transition: clip-path 1s;
 }
 
@@ -148,10 +147,9 @@
 .a7{
     position: absolute;
     top: 45.5vw;
-    left: 69vw;
+    left: 68.5vw;
 
 }
-
 
 .battery {
     padding:0;
@@ -177,7 +175,7 @@
     position: absolute;
     text-align: justify;
     left: 37vw;
-    top: 45vw;
+    top: 90vh;
     max-width: 26vw;
     opacity: 0;
     transition: opacity 1s;
@@ -200,14 +198,14 @@
     position: absolute;
     max-width: 26vw;
     left: 10vw;
-    top: 60vh;
+    top: 70vh;
     text-align: justify;
 }
 
 .bluetoothImg{
     position: absolute;
     max-width: 45vw;
-    top: 50vh;
+    top: 60vh;
     box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
     right: 10vw;
 }
@@ -219,10 +217,10 @@
 
 .parScatola{
     position: absolute;
-    top: 45vh;
+    top: 55vh;
     right: 10vw;
     text-align: right;
-    max-width: 26vw;
+    max-width: 20vw;
 }
 
 .box{
