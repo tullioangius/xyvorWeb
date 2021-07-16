@@ -5,7 +5,7 @@
         transition: opacity 1s;
     }
     .parBattery{
-        top: 40vw;
+        top: 95vw;
         bottom: auto;
     }
     .parChip{
@@ -79,20 +79,24 @@
    }
 
    /*HERO 3 BATTERY*/
-   .gallery{
-       margin-top: 40%;
+   .row1{
+    top: 30vw;
    }
+   .row2{
+       top: 32vw;
+   }
+   
    .parBattery{
        max-width: none;
        width: 80vw;
        left: 10vw;
-       top: 40vw;
+       top: 130vw;
        bottom: auto;
    }
 
    /*HERO 4 BLUETOOTH*/
    .bluetooth{
-       top: -25vw;
+       top: 55vw;
    }
    .bluetoothImg{
        max-width: none;
@@ -101,15 +105,15 @@
    .parChip{
        max-width: none;
        width: 80vw;
-       top: 90vw;
+       top: 100vw;
    }
 
    /*HERO 5 SCATOLA*/
 
    .scatola {
     position: relative;
-    margin-bottom: 55vh;
-    top: 20vw;
+    margin-bottom: 185vh;
+    top: 100vw;
 }
 
 
@@ -140,8 +144,11 @@
     .battery{
         top: 25vw;
     }
-    .gallery{
+    .row1{
         top: -10vw;
+    }
+    .row2{
+        top: 0vw
     }
     .parBattery{
         top: 95vw;

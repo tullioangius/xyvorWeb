@@ -180,7 +180,7 @@
         position: absolute;
         text-align: justify;
         left: 37vw;
-        bottom: -50vh;
+        top: 90vw;
         max-width: 26vw;
         opacity: 0;
         transition: opacity 1s;
@@ -192,6 +192,7 @@
         position: relative;
         opacity: 0;
         transition: opacity 1s;
+        top: 45vw;
 
     }
 
@@ -217,7 +218,8 @@
     /*HERO 5 SCATOLA*/
     .scatola {
         position: relative;
-        margin-bottom: 35vh;
+        margin-bottom: 85vw;
+        top: 55vw;
     }
 
     .parScatola{
