@@ -187,30 +187,30 @@
 
     .b1{
         position: absolute;
-        top: 100vh;
+        top: 90vh;
     }
     .b2{
         position: absolute;
-        top: 100vh;
+        top: 90vh;
         left: 16.4vw;
     }
     .b3{
         position: absolute;
-        top: 100vh;
+        top: 90vh;
         left: 32.8vw;
     }
     .b4{
         position: absolute;
-        top: 100vh;
+        top: 90vh;
         left: 49.2vw;
     }
     .b5{
         position: absolute;
-        top: 100vh;
+        top: 90vh;
         left: 65.6vw;
     }
     .parScatola{
-        top: 95vw;
+        top: 92vw;
         max-width: none;
         width: 80vw;
         left: 10vw;
