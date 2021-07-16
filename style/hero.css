@@ -10,6 +10,7 @@
 
     /*HERO 1 DRIVER*/
     .driver {
+        position: relative;
         width: 100%;
     }
 
@@ -39,7 +40,6 @@
         top: 15vh;
         opacity: 0;
         transition: opacity 1s;
-
     }
 
     #driver_bg{
@@ -52,8 +52,6 @@
         transition: opacity 1s;
     }
 
-
-
     .bassiWrapper{
         width: 100vw;
     }
@@ -65,7 +63,6 @@
         padding:0;
         position: relative;
     }
-
 
     .parComfort{
         max-width: 26vw;
@@ -81,6 +78,7 @@
         max-width: 40vw;
         
     }
+
     .trigger{
         clip-path: circle(71% at 50% 50%);
         transition: clip-path 1s;
@@ -92,7 +90,6 @@
         right: 10vw;
         top: -25vh;
     }
-
 
     /*HERO 3 BATTERIA*/
 

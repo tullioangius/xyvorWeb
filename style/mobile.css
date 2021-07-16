@@ -1,4 +1,23 @@
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1680px) {
+    .parComfort{
+        top: -5vw;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    .parBattery{
+        top: 40vw;
+        bottom: auto;
+    }
+    .parChip{
+        top: 35vw;;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .body-container{
+        height: 100%;
+    }
+    
     /*LANDING*/
    .r{
     transform: rotate(30deg);
@@ -26,8 +45,8 @@
 
    .bassi{
        max-width: none;
-       width: 60vw;
-       left: 20vw;
+       width: 30vw;
+       left: 10vw;
    }
 
    #driver_bg{
@@ -36,17 +55,16 @@
 
    .parDriver{
        max-width: none;
-       width: 60vw;
-       top: 65vh;
-       right: 20vw;
+       width: 55vw;
+       top: 55%;
+       right: 10vw;
    }
 
    /*HERO 2*/
 
    #comfy-wrapper{
     right: 10vw;
-
-    top: -50vh;
+    top: -25vw;
    }
    .fitproduct{
        max-width: none;
@@ -57,9 +75,138 @@
        max-width: none;
        width: 70vw;
        left: 15vw;
-       top:50vw;
+       top:65vw;
    }
 
+   /*HERO 3 BATTERY*/
+   .gallery{
+       margin-top: 40%;
+   }
+   .parBattery{
+       max-width: none;
+       width: 80vw;
+       left: 10vw;
+       top: 40vw;
+       bottom: auto;
+   }
 
- 
+   /*HERO 4 BLUETOOTH*/
+   .bluetooth{
+       top: -25vw;
+   }
+   .bluetoothImg{
+       max-width: none;
+       width: 80vw;
+   }
+   .parChip{
+       max-width: none;
+       width: 80vw;
+       top: 90vw;
+   }
+
+   /*HERO 5 SCATOLA*/
+
+   .scatola {
+    position: relative;
+    margin-bottom: 55vh;
+    top: 20vw;
+}
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    /*HERO 1*/
+    .bassi{
+        width: 90vw;
+        top: 5vh;
+        background-color: #FFC857;
+        border-radius: 10px;
+        left: 5vw;
+
+    }
+    .parDriver{
+        position: relative;
+        top: 25vw;
+        left: 10vw;
+        max-width: none;
+        width: 80vw;
+    }
+    #driver_bg{
+        visibility: hidden;
+    }
+
+    /*GALLERY*/
+    .battery{
+        top: 25vw;
+    }
+    .gallery{
+        top: -10vw;
+    }
+    .parBattery{
+        top: 95vw;
+    }
+
+    /*BLUETOOTH*/
+    .bluetooth{
+        top: 35vw;
+        position: relative;
+    }
+    .parChip{
+        top: 85vw;
+    }
+    .bluetoothImg{
+        top: 25vw;
+    }
+
+    /*SCATOLA*/
+    .scatola{
+        margin-bottom: 75vw;
+        top: 40vw;
+    }
+    
+    .box{
+        max-width: 14.4vw;
+        background-color: #FFC857;
+        box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+    
+    }
+
+    .boxContent{
+        position: absolute;
+        top: 35vw;
+        left: 10vw;
+    }
+
+    .b1{
+        position: absolute;
+        top: 100vh;
+    }
+    .b2{
+        position: absolute;
+        top: 100vh;
+        left: 16.4vw;
+    }
+    .b3{
+        position: absolute;
+        top: 100vh;
+        left: 32.8vw;
+    }
+    .b4{
+        position: absolute;
+        top: 100vh;
+        left: 49.2vw;
+    }
+    .b5{
+        position: absolute;
+        top: 100vh;
+        left: 65.6vw;
+    }
+    .parScatola{
+        top: 95vw;
+        max-width: none;
+        width: 80vw;
+        left: 10vw;
+        text-align: left;
+    }
 }
