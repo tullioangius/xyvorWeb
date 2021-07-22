@@ -1,6 +1,6 @@
 html{
     scroll-behavior: smooth;
-    height: 100vh;
+    height: 100%;
 
     overflow-x: hidden;
 }
@@ -15,22 +15,16 @@ body{
     padding: 4vw;
     overflow-x: hidden;
     max-height:auto;
-    height: 100vh;
+    height: 100%;
 }
 
 
 .container{
     background-color: #fdfdfd;
     border-radius: 1.5em;
-    padding-bottom: 3vh;
-    
+    padding-bottom: 13vh;
 }
 
 footer{
     position: absolute;
-}
-.goback{
-    position: fixed;
-    top: 15vh;
-    left: 10vh;
 }
