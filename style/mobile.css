@@ -1,219 +1,165 @@
-@media screen and (max-width: 1680px) {
-    .parComfort{
-        top: -5vw;
-        opacity: 0;
-        transition: opacity 1s;
-    }
-    .parBattery{
-        top: 95vw;
-        bottom: auto;
-    }
-    .parChip{
-        top: 35vw;;
-    }
-}
-
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
     .body-container{
-        height: 100%;
+        height: calc(420vh + 200vw);
     }
+
+  
     
     /*LANDING*/
+
+    .background{
+        height: 80vh;
+    }
+
+    .landing{
+        height: 80vh;
+        padding-top: 30vh;
+    }
    .r{
-    transform: rotate(30deg);
-    max-height: 28vh;
-    right: 10vw;
-    top: 40vh;
+        transform: rotate(30deg);
+        max-height: 28vh;
+        right: 10vw;
+        top: 40vh;
 
    }
    .l{
-    transform: rotate(30deg);
-    max-height: 28vh;
-    left: 10vw;
-    top: 2vh
+       transform: rotate(30deg);
+       max-height: 28vh;
+       left: 10vw;
+       top: 2vh
    }
 
    .central-logo{
-       max-width: 50vh;
-   }
-   h1{
        max-width: 80vw;
-       font-size: 4vh;
    }
 
-   /*HERO 1*/
-
+   /*HERO 1 DRIVERS*/
    .bassi{
-       max-width: none;
-       width: 30vw;
-       left: 10vw;
-   }
-
-   #driver_bg{
-       left: 1vw;
+       max-width: 70vw;
+       left: 15vw;
    }
 
    .parDriver{
-       max-width: none;
-       width: 55vw;
-       top: 55%;
-       right: 10vw;
-   }
-
-   /*HERO 2*/
-
-   #comfy-wrapper{
-    right: 10vw;
-    top: -25vw;
-   }
-   .fitproduct{
-       max-width: none;
-       width: 80vw;
-   }
-   .parComfort{
-       position: relative;
-       max-width: none;
-       width: 70vw;
-       left: 15vw;
-       top:65vw;
-   }
-
-   /*HERO 3 BATTERY*/
-   .row1{
-    top: 30vw;
-   }
-   .row2{
-       top: 32vw;
+        top: calc(35vw + 25vh);
+        max-width: 70vw;
+        left: 15vw;
    }
    
-   .parBattery{
-       max-width: none;
-       width: 80vw;
-       left: 10vw;
-       top: 130vw;
-       bottom: auto;
+   .driver{
+       margin-bottom: 0px;
    }
 
-   /*HERO 4 BLUETOOTH*/
-   .bluetooth{
-       top: 55vw;
-   }
-   .bluetoothImg{
-       max-width: none;
-       width: 80vw;
-   }
-   .parChip{
-       max-width: none;
-       width: 80vw;
-       top: 100vw;
+   /*HERO 2 COMFORT*/
+
+   .comfort{
+       top: calc(3vh + 2vw);
    }
 
-   /*HERO 5 SCATOLA*/
+   .fitproduct{
+       max-width: 70vw;
+   }
 
-   .scatola {
-    position: relative;
-    margin-bottom: 185vh;
-    top: 100vw;
-}
-
-
-}
-
-@media screen and (max-width: 1024px) {
-    /*HERO 1*/
-    .bassi{
-        width: 90vw;
-        top: 5vh;
-        background-color: #FFC857;
-        border-radius: 10px;
-        left: 5vw;
-
-    }
-    .parDriver{
-        position: relative;
-        top: 25vw;
-        left: 10vw;
-        max-width: none;
-        width: 80vw;
-    }
-    #driver_bg{
-        visibility: hidden;
+   #comfy-wrapper{
+        position: absolute;
+        left: 15vw;
+        top: calc(5vw + 2vh);
     }
 
-    /*GALLERY*/
+    .parComfort{
+        max-width: 70vw;
+        left: 15vw;
+        top: calc(75vw + 10vh)
+    }
+
+    /*HERO 3 BATTERIA*/
+
     .battery{
-        top: 25vw;
+        margin-top: calc(15vh + 32vw);
+        height: calc(105vh + 40vw);
+
     }
-    .row1{
-        top: -10vw;
-    }
-    .row2{
-        top: 0vw
-    }
+
     .parBattery{
-        top: 95vw;
+        max-width: 70vw;
+        left: 15vw;
+
     }
 
-    /*BLUETOOTH*/
+    /*HERO 4 BLUETOOTH*/
+
     .bluetooth{
-        top: 35vw;
-        position: relative;
-    }
-    .parChip{
-        top: 85vw;
-    }
-    .bluetoothImg{
-        top: 25vw;
+        top: calc(-15vh + -1vw);
     }
 
-    /*SCATOLA*/
-    .scatola{
-        margin-bottom: 75vw;
-        top: 40vw;
+    .bluetoothImg{
+        max-width: 70vw;
+        left: 15vw;
     }
-    
+
+    .parChip{
+        max-width: 70vw;
+        left: 15vw;
+        top: calc(40vw + 15vh)
+    }
+
+    /*HERO 5 SCATOLA*/
+
+    .scatola{
+        height: 85vh;
+    }
+
     .box{
-        max-width: 14.4vw;
-        background-color: #FFC857;
-        box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-    
+        max-width: 11.6vw;
+        top: calc(60vh + 15vw);
     }
 
     .boxContent{
         position: absolute;
-        top: 35vw;
-        left: 10vw;
+        left: 15vw;
     }
 
     .b1{
         position: absolute;
-        top: 90vh;
     }
     .b2{
         position: absolute;
-        top: 90vh;
-        left: 16.4vw;
+        left: 14.6vw;
     }
     .b3{
         position: absolute;
-        top: 90vh;
-        left: 32.8vw;
+        left: 29.3vw;
     }
     .b4{
         position: absolute;
-        top: 90vh;
-        left: 49.2vw;
+        left: 43.8vw;
     }
     .b5{
         position: absolute;
-        top: 90vh;
-        left: 65.6vw;
+        left: 58.4vw;
     }
+
     .parScatola{
-        top: 92vw;
-        max-width: none;
-        width: 80vw;
-        left: 10vw;
-        text-align: left;
+        max-width: 70vw;
+        left: 15vw;
+        top: calc(15vh + 20vw);
+        text-align: justify;
+
     }
+
+
+
+}
+
+@media screen and (max-width: 895px){
+    .body-container{
+        height: calc(430vh + 200vw);
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .body-container{
+        height: calc(460vh + 200vw);
+    }
+
 }

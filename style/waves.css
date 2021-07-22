@@ -1,13 +1,13 @@
 .waves {
     position:relative;
     width: 100%;
-    height:15vh;
+    height:15%;
     margin-bottom:-7px; /*Fix for safari gap*/
     min-height:100px;
     max-height:150px;
   }
   .wave_box_down{
-      position: relative;
+    position: relative;
     transform: rotate(180deg);
   }
   
