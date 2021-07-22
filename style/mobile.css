@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
     .body-container{
-        height: calc(420vh + 200vw);
+        height: calc(460vh + 200vw);
     }
 
   
@@ -105,7 +105,7 @@
     /*HERO 5 SCATOLA*/
 
     .scatola{
-        height: 85vh;
+        height: calc(55vh + 10vw);
     }
 
     .box{
@@ -143,23 +143,24 @@
         left: 15vw;
         top: calc(15vh + 20vw);
         text-align: justify;
-
     }
-
-
 
 }
 
-@media screen and (max-width: 895px){
+/* @media screen and (max-width: 1000px){
     .body-container{
-        height: calc(430vh + 200vw);
+        height: calc(400vh * (1/20vw));
     }
 
-}
+} */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 860px){
     .body-container{
         height: calc(460vh + 200vw);
+    }
+
+    .parScatola{
+        top: calc(10vh + 5vw);
     }
 
 }
