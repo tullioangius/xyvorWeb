@@ -147,13 +147,6 @@
 
 }
 
-/* @media screen and (max-width: 1000px){
-    .body-container{
-        height: calc(400vh * (1/20vw));
-    }
-
-} */
-
 @media screen and (max-width: 860px){
     .body-container{
         height: calc(460vh + 200vw);
