@@ -17,14 +17,14 @@
     }
    .r{
         transform: rotate(30deg);
-        max-height: 28vh;
+        max-height: 25vh;
         right: 10vw;
         top: 40vh;
 
    }
    .l{
        transform: rotate(30deg);
-       max-height: 28vh;
+       max-height: 25vh;
        left: 10vw;
        top: 2vh
    }
