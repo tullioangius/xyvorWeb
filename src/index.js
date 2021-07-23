@@ -2,18 +2,15 @@
 
 function setWidth(){
   viewWidthGallery = document.querySelector("html").clientWidth *1.5;
-  console.log(viewWidthGallery)
   return viewWidthGallery
 }
 function setWidthReverse(){
   viewWidthGallery = document.querySelector("html").clientWidth *1.5;
-  console.log(viewWidthGallery)
   return -viewWidthGallery
 }
 
 function setHeight(){
   viewHeight = document.querySelector("html").clientHeight;
-  console.log(viewHeight)
   return -viewHeight
 }
 
