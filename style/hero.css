@@ -206,6 +206,7 @@
         right: 10vw;
         text-align: right;
         max-width: 20vw;
+        top: calc(-4vh + -9vw);
     }
 
     .box{
