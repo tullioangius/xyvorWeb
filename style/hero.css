@@ -85,7 +85,7 @@
     .battery {
         padding:0;
         position: relative;
-        margin-top: calc(7vh + 7vw);
+        margin-top: calc(12vh + 7vw);
         height: calc(140vh + 35vw);
     }
     
