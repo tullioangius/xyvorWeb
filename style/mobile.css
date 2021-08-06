@@ -37,46 +37,51 @@
    .bassi{
        max-width: 70vw;
        left: 15vw;
+       top: 10vh;
    }
 
    .parDriver{
-        top: calc(35vw + 25vh);
+        bottom: 10vh;
         max-width: 70vw;
         left: 15vw;
    }
    
    .driver{
-       margin-bottom: 0px;
+       margin-bottom: calc(5vh + 3vw);
    }
 
    /*HERO 2 COMFORT*/
 
    .comfort{
-       top: calc(3vh + 2vw);
+        margin-bottom: calc(5vh + 3vw);
    }
 
    .fitproduct{
-       max-width: 70vw;
+       max-width: 50vw;
+       
    }
 
    #comfy-wrapper{
         position: absolute;
-        left: 15vw;
-        top: calc(5vw + 2vh);
+        left: 25vw;
+        right: auto;
+        top: 10vh;
+    
     }
 
     .parComfort{
         max-width: 70vw;
         left: 15vw;
-        top: calc(75vw + 10vh)
+        top: auto;
+        bottom: 10vh !important;
     }
 
     /*HERO 3 BATTERIA*/
 
     .battery{
-        margin-top: calc(15vh + 27vw);
-        height: calc(105vh + 40vw);
-
+        height: calc(90vh + 40vw);
+        padding: 0px;
+        margin-bottom: calc(5vh + 3vw);
     }
 
     .parBattery{
@@ -88,7 +93,7 @@
     /*HERO 4 BLUETOOTH*/
 
     .bluetooth{
-        top: calc(-15vh + -1vw);
+        margin-bottom: calc(5vh + 3vw);
     }
 
     .bluetoothImg{

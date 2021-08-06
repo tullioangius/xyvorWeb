@@ -11,7 +11,7 @@
     .driver {
         position: relative;
         width: 100%;
-        margin-bottom: calc(7vh + 7vw);
+        margin-bottom: calc(5vh + 3vw);
     }
 
     .parDriver{
@@ -19,7 +19,7 @@
         text-align: justify;
         position: absolute;
         right: 15vw;
-        top: calc(25vw + 5vh);
+        bottom: 10vh;
         opacity: 0;
         transition: opacity 1s;
 
@@ -27,8 +27,8 @@
 
     .bassi{
         position: absolute;
-        left: 10vw;
-        top: 10vw;
+        left: 15vw;
+        top: 10vh;
         opacity: 0;
         transition: opacity 1s;
     }
@@ -52,21 +52,22 @@
         width: 100%;
         padding:0;
         position: relative;
+        margin-bottom: calc(5vh + 3vw);
     }
 
     .parComfort{
         max-width: 26vw;
+        max-height: 40vh;
         text-align: justify;
         position: absolute;
         left: 10vw;
-        top: 15vw;
+        top: 10vw;
         opacity: 0;
         transition: opacity 1s;
     }
 
     .fitproduct{
-        max-width: 40vw;
-        top: 10vw;
+        max-height: 70vh;
     }
 
     .trigger{
@@ -78,15 +79,17 @@
         filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
         position: absolute;
         right: 10vw;
-        top: 5vw;
+        max-height: 70vh;
+        top: 5vh;
+
     }
 
     /*HERO 3 BATTERIA*/
     .battery {
-        padding:0;
+        padding: 5vh;
         position: relative;
-        margin-top: calc(12vh + 7vw);
-        height: calc(140vh + 35vw);
+        margin-bottom: calc(5vh + 3vw);
+        height: calc(140vh + 45vw);
     }
     
     /*carosello*/
@@ -158,7 +161,7 @@
         position: absolute;
         text-align: justify;
         left: 37vw;
-        top: 90vw;
+        bottom: 10vh;
         max-width: 26vw;
         opacity: 0;
         transition: opacity 1s;
@@ -170,7 +173,7 @@
         position: relative;
         opacity: 0;
         transition: opacity 1s;
-        top: calc(7vh + 8vw);
+        margin-bottom: calc(5vh + 3vw);
 
     }
 
@@ -182,22 +185,22 @@
         position: absolute;
         max-width: 26vw;
         left: 10vw;
-        top: 5vw;
+        top: 10vh;
         text-align: justify;
     }
 
     .bluetoothImg{
         position: absolute;
         max-width: 45vw;
-        top: 5vw;
+        top: 10vh;
         box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
         right: 10vw;
     }
     /*HERO 5 SCATOLA*/
     .scatola {
         position: relative;
-        height: 70vh;
-        top: calc(15vh + 11vw);
+        height: auto;
+        
     }
 
 
@@ -206,7 +209,6 @@
         right: 10vw;
         text-align: right;
         max-width: 20vw;
-        top: calc(-4vh + -9vw);
     }
 
     .box{
